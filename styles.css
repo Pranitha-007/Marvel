@@ -1,0 +1,231 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color:green;
+    color: #f8f2f2;
+    line-height: 1.6;
+    background-image: "C:\Users\spran\Downloads\WhatsApp Image 2025-03-01 at 18.19.50.jpeg";
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f20bee;
+    color: rgb(10, 10, 10);
+    padding: 35px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+}
+
+/* About Section */
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#about .profile-img {
+    border-radius: 0%;
+    width: 250px;
+    height: 500px;
+}
+
+#about .about-text {
+    max-width: 700px;
+}
+
+#about h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #f8f1f1;
+}
+
+/* Project Section */
+#projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: rgb(51, 186, 210);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit:fill;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #0a0909;
+    padding: 0 10px 20px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+
+/* Interests Section */
+#projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card1 {
+    background-color: rgb(182, 69, 239);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.project-card1 h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.project-card1 p {
+    font-size: 1rem;
+    color: #0a0909;
+    padding: 0 10px 20px;
+}
+
+.project-card1:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+#contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #3dfe77;
+    color: rgb(5, 5, 5);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
